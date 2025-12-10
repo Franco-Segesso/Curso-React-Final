@@ -51,4 +51,4 @@ Usé lo que aprendimos en el curso:
 3.  ¡Listo! Abrí el link que te aparece.
 
 ---
-**Creado por:** [Tu Nombre]
+
