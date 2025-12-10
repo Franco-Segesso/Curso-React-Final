@@ -1,16 +1,54 @@
-# React + Vite
+# 🎲 Tienda de Juegos de Mesa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido! Este es mi proyecto final para el curso de React. Es una tienda online donde puedes ver, buscar y "comprar" juegos de mesa.
 
-Currently, two official plugins are available:
+🔗 https://curso-react-final.vercel.app/ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🕹️ ¿Qué se puede hacer?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Como Cliente:**
+* Ver el catálogo de juegos (con fotos y precios).
+* Buscar juegos por nombre o categoría.
+* Agregar productos al carrito y simular una compra.
 
-## Expanding the ESLint configuration
+**Como Administrador (Panel Secreto):**
+* Entrar a un panel especial con contraseña.
+* Agregar juegos nuevos al catálogo.
+* Editar precios o descripciones.
+* Borrar juegos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔑 Contraseña para el Profe
+
+Para probar las funciones de administrador, usa estos datos en el Login:
+
+* **Usuario:** `admin`
+* **Email:** `1234@admin`
+
+---
+
+## 💻 Tecnologías
+
+Usé lo que aprendimos en el curso:
+* **React + Vite** (El motor de la página).
+* **Bootstrap** (Para que se vea bien en celulares y PC).
+* **Context API** (Para guardar el carrito y el usuario).
+* **React Router** (Para navegar entre páginas).
+
+---
+
+## 🏃‍♂️ ¿Cómo probarlo en tu PC?
+
+1.  Descarga el código.
+2.  Abre la terminal en la carpeta y escribe:
+    ```bash
+    npm install
+    npm run dev
+    ```
+3.  ¡Listo! Abrí el link que te aparece.
+
+---
+**Creado por:** [Tu Nombre]
