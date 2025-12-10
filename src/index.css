@@ -1,0 +1,90 @@
+/* Importamos la fuente Poppins de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #2b2d42; /* Azul oscuro elegante */
+  --secondary-color: #ef233c; /* Rojo vibrante para botones/acciones */
+  --accent-color: #8d99ae; /* Gris azulado para detalles */
+  --bg-light: #edf2f4; /* Fondo claro casi blanco */
+  --card-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  color: #333;
+}
+
+/* ===== NAVBAR PERSONALIZADO ===== */
+/* Lo manejaremos con Styled Components, pero ajustamos el body para el padding */
+body {
+  padding-top: 70px; /* Espacio para el navbar fijo */
+}
+
+/* ===== HERO SECTION (Para el Inicio) ===== */
+.hero-section {
+  background: linear-gradient(rgba(43, 45, 66, 0.9), rgba(43, 45, 66, 0.8)), url('https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?q=80&w=2000&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* ===== PRODUCTOS (Tarjetas Modernas) ===== */
+.card-custom {
+  border: none;
+  border-radius: 15px;
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.card-custom:hover {
+  transform: translateY(-10px); /* Efecto de flotar */
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.card-custom img {
+  border-bottom: 1px solid #eee;
+  transition: transform 0.5s ease;
+}
+
+.card-custom:hover img {
+  transform: scale(1.05); /* Zoom suave a la imagen */
+}
+
+.btn-custom {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
